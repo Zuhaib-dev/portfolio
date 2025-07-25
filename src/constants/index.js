@@ -172,94 +172,96 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Zuhaib's work on the CarePulse website was nothing short of amazing. The clean design and attention to detail truly impressed everyone on our team.",
+    name: "Aqib Bashir",
+    designation: "Product Manager",
+    company: "CarePulse",
+    image: "https://randomuser.me/api/portraits/men/11.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "The way Zuhaib transformed our vision into a stunning frontend for Resumind was remarkable. He’s not just a developer, he’s a creative mind.",
+    name: "Sahil Manzoor",
+    designation: "Team Lead",
+    company: "Resumind",
+    image: "https://randomuser.me/api/portraits/men/21.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Zuhaib always goes the extra mile. His passion for web development shows in every project he touches. Highly recommend him!",
+    name: "Farhan Ali",
+    designation: "UX Designer",
+    company: "Freelancer",
+    image: "https://randomuser.me/api/portraits/men/31.jpg",
   },
 ];
 
+
 const projects = [
   {
-    name: "Car Rent",
+    name: "CarePulse",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A modern health dashboard frontend designed for efficient patient monitoring and analytics. Built with a responsive and accessible UI that prioritizes usability and clean visuals.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: carepulse, // replace with your actual image import
+    source_code_link: "https://github.com/Zuhaib-dev/Projects.git",
+  },
+  {
+    name: "Resumind",
+    description:
+      "A resume-building web app designed to help users create professional resumes with ease. Focused on clean design, form validation, and mobile responsiveness.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: resumind, // replace with your actual image import
+    source_code_link: "https://github.com/Zuhaib-dev/Projects.git",
+  },
+  {
+    name: "Netflix Clone",
+    description:
+      "A responsive clone of the Netflix homepage with movie posters, hover effects, and an intuitive layout. Built to showcase frontend development skills with a sleek UI.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: netflixclone, // replace with your actual image import
+    source_code_link: "https://github.com/Zuhaib-dev/Projects.git",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
