@@ -216,8 +216,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carepulse, // replace with your actual image import
-    source_code_link: "https://github.com/Zuhaib-dev/Projects.git",
+    image: "https://github.com/Zuhaib-dev/Resumind/raw/main/public/readme/hero.webp",
+    source_code_link: "https://github.com/Zuhaib-dev/HMS",
   },
   {
     name: "Resumind",
@@ -237,8 +237,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: resumind, // replace with your actual image import
-    source_code_link: "https://github.com/Zuhaib-dev/Projects.git",
+    image: "https://github.com/Zuhaib-dev/Resumind/raw/main/public/readme/hero.webp", // replace with your actual image import
+    source_code_link: "https://github.com/Zuhaib-dev/Resumind",
   },
   {
     name: "Netflix Clone",
@@ -258,7 +258,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: netflixclone, // replace with your actual image import
+    image: "https://github.com/Zuhaib-dev/Resumind/raw/main/public/readme/hero.webp", // replace with your actual image import
     source_code_link: "https://github.com/Zuhaib-dev/Projects.git",
   },
 ];
